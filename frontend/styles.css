@@ -11,7 +11,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     height: 100%;
-    background-color: #f7f7f7;
+    background-image: url(./imagens/fundo.png); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+  
     
   }
   
@@ -45,11 +49,32 @@
     width: 350px;
     height: 100%;
     max-height: 550px;
-    background-color: #fff;
+    background-color: black;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
   }
   
+
+  /* Estilos para o aviso */
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black; /* Tom chamativo */
+    color: whitesmoke; /* Cor do texto */
+    max-width: 400px;
+    margin: 0 auto 20px; /* Centralizando e dando margem inferior */
+    margin-left: 120px;
+    margin-top: 40px;
+  }
+  
+  .aviso i {
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+  }
   
   .conteudo-clima h2 {
     width: 325px;
@@ -58,7 +83,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    color: #333;
+    color: white;
   }
   
   .conteudo-clima h3 {
@@ -83,7 +108,7 @@
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2rem;
-    color: #666;
+    color: white;
   }
   
   .caixa {
@@ -103,6 +128,7 @@
     position: absolute;
     top: -60px; 
     margin-right: 350px;
+    margin-top: 30px;
    }
 
   .procura button {
@@ -145,8 +171,6 @@
     width: 350px;
     height: 465px;
     border-radius: 50px;
-    background: linear-gradient(180deg, rgba(194, 188, 194, 0) 0%, rgba(194, 188, 194, 0.8));
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     filter: blur(4.5px);
     z-index: -1;
   }
