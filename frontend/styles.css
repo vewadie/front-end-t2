@@ -52,7 +52,7 @@
     background-color: black;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
+    margin-top: 40px;
   }
   
 
@@ -68,13 +68,10 @@
     max-width: 400px;
     margin: 0 auto 20px; /* Centralizando e dando margem inferior */
     margin-left: 120px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   
-  .aviso i {
-    font-size: 24px; /* Tamanho do ícone */
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
-  }
+
   
   .conteudo-clima h2 {
     width: 325px;
@@ -128,7 +125,7 @@
     position: absolute;
     top: -60px; 
     margin-right: 350px;
-    margin-top: 30px;
+    margin-top: 50px;
    }
 
   .procura button {
@@ -160,7 +157,7 @@
     border-radius: 100px;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
     background-color: #f5f5f5;
-    color: #333;
+    color: black;
   }
   
   .conteudo-clima::after {
