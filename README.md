@@ -1,5 +1,11 @@
 # front-end-t1
 
+
+Certifique-se de instalar todas as dependências do projeto dentro da pasta raiz (npm i)
+Use o arquivo .env para escrever a sua própria chave
+Inicialize o servidor nodejs (npm start)
+
+
 Grupo:
 
 Felipe Piccoli - 23.00760-5
